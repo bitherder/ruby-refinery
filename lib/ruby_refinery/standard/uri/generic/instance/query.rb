@@ -1,9 +1,7 @@
 module RubyRefinery
-  refine URI::Generic do
-    # TODO: use better aliasing
-    alias :query_without_ruby_refinery :query
+  module URIGenericQueryExtension
     def query
-      result = query_without_ruby_refinery
+      result = super
       class << result
         def to_a
           URI.decode_www_form(self)
@@ -15,5 +13,9 @@ module RubyRefinery
       end
       result
     end
+  end
+
+  refine URI::Generic do
+    prepend URIGenericQueryExtension
   end
 end
