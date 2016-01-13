@@ -1,5 +1,8 @@
 require "ruby_refinery/version"
 
+
 module RubyRefinery
-  # Your code goes here...
+  # intentially left empty
 end
+
+# TODO pull in everything here
