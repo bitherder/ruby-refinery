@@ -1,0 +1,1 @@
+TODO Pathname#drop_ext -> convenience for Pathname#sub_ext('')
