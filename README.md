@@ -1,4 +1,4 @@
-# RubyRefinery
+# Ruby Refinery
 
 Ruby extensions formulated as refinements.
 
@@ -9,7 +9,7 @@ The aim here is to build a library of Ruby extensions, similar in funciton to Ru
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'ruby_refinery'
+gem 'refinery'
 ```
 
 And then execute:
@@ -18,7 +18,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install ruby_refinery
+    $ gem install refinery
 
 ## Usage
 
