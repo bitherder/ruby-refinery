@@ -4,6 +4,14 @@ require 'refinery/core_ext/uri/class/build'
 using Refinery
 
 describe URI do
+  it '#respond_to? shows the .parse method (sanity test)' do
+    URI.respond_to?(:parse).must_equal true
+  end
+
+  it '#respond_to? shows the .build method' do
+    URI.respond_to?(:build).must_equal true
+  end
+
   [
     # class        minumum .build arguments
     [URI::FTP,    {host: 'acme.com', path: '/something'}],
