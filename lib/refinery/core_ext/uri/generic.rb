@@ -1,1 +1,1 @@
-require 'ruby_refinery/standard/uri/generic/instance'
+require 'refinery/core_ext/uri/generic/instance'

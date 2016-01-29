@@ -1,2 +1,2 @@
-require 'ruby_refinery/standard/pathname'
-require 'ruby_refinery/standard/uri'
+require 'refinery/core_ext/pathname'
+require 'refinery/core_ext/uri'

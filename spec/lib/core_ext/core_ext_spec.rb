@@ -1,8 +1,8 @@
 require_relative '../../spec_helper.rb'
 
-describe 'ruby_refinery/standard' do
+describe 'refinery/core_ext' do
   it 'can be required' do
-    require 'ruby_refinery/standard'
+    require 'refinery/core_ext'
   end
 end
 

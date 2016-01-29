@@ -1,1 +1,1 @@
-require 'ruby_refinery/standard/pathname/instance'
+require 'refinery/core_ext/pathname/instance'
