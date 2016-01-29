@@ -1,4 +1,4 @@
-module RubyRefinery
+module Refinery
   module URIGenericQueryEqualExtension
     def query=(value)
       if value.kind_of? Enumerable

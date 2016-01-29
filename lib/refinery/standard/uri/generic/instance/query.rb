@@ -1,4 +1,4 @@
-module RubyRefinery
+module Refinery
   module URIGenericQueryExtension
     def query
       result = super

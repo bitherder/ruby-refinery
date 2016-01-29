@@ -1,13 +1,13 @@
 require_relative '../../../../spec_helper.rb'
-require 'ruby_refinery/standard/pathname/instance/glob'
+require 'refinery/standard/pathname/instance/glob'
 require 'tmpdir'
 
-using RubyRefinery
+using Refinery
 
 # TODO: deal with glob options
 describe Pathname do
   before(:each) do
-    @tmp_path = Pathname(Dir.mktmpdir('ruby_refinery'))
+    @tmp_path = Pathname(Dir.mktmpdir('refinery'))
     FileUtils.touch @tmp_path+'aa'
     FileUtils.touch @tmp_path+'ab'
     FileUtils.touch @tmp_path+'ba'

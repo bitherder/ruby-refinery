@@ -2,11 +2,11 @@
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'pathname'
-require 'ruby_refinery/version'
+require 'refinery/version'
 
 Gem::Specification.new do |spec|
-  spec.name                  = "ruby_refinery"
-  spec.version               = RubyRefinery::VERSION
+  spec.name                  = "refinery"
+  spec.version               = Refinery::VERSION
   spec.authors               = ["Larry Baltz"]
   spec.email                 = ["larry@baltz.org"]
 
