@@ -1,7 +1,7 @@
-require "ruby_refinery/version"
+require "refinery/version"
 
 
-module RubyRefinery
+module Refinery
   # intentially left empty
 end
 

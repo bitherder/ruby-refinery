@@ -1,7 +1,7 @@
 require_relative '../../../../../spec_helper.rb'
-require 'ruby_refinery/standard/uri/generic/instance/query'
+require 'refinery/core_ext/uri/generic/instance/query'
 
-using RubyRefinery
+using Refinery
 
 describe URI::Generic do
 
