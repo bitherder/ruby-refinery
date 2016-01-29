@@ -1,5 +1,5 @@
 require_relative '../../../../../spec_helper.rb'
-require 'refinery/standard/uri/generic/instance/query'
+require 'refinery/core_ext/uri/generic/instance/query'
 
 using Refinery
 

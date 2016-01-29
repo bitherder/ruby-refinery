@@ -1,5 +1,5 @@
 require_relative '../../../../spec_helper.rb'
-require 'refinery/standard/pathname/instance/glob'
+require 'refinery/core_ext/pathname/instance/glob'
 require 'tmpdir'
 
 using Refinery
