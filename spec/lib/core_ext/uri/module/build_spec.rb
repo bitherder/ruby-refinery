@@ -1,5 +1,5 @@
 require_relative '../../../../spec_helper.rb'
-require 'refinery/core_ext/uri/class/build'
+require 'refinery/core_ext/uri/module/build'
 
 using Refinery
 

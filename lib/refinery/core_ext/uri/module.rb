@@ -1,2 +1,2 @@
-require 'refinery/core_ext/uri/class/build'
+require 'refinery/core_ext/uri/module/build'
 
