@@ -9,6 +9,7 @@ describe URI do
   end
 
   it '#respond_to? shows the .build method' do
+    skip "refinements currently don't support #respond_to? or #send"
     URI.respond_to?(:build).must_equal true
   end
 
